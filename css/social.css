@@ -1,0 +1,88 @@
+.social {
+  background: #F8EFEF;
+height: 100px;
+}
+.container {
+   max-width: 1170px;
+   
+   padding: 14px 0 17px 0;
+}
+.social__contant {
+  display: flex;
+  justify-content: space-between;
+}
+.social__title {
+  font-family: 'Open Sans';
+font-weight: 700;
+font-size: 20px;
+color: #333333;
+}
+.sotial__descr {
+  font-family: 'Open Sans';
+font-weight: 400;
+font-size: 14px;
+color: #86878B;
+max-width: 365px;
+margin-top: 14px;
+
+}
+.icons {
+  
+}
+.social_icons {
+  margin-top: 34px;
+  color: #86878B;
+  font-size: 41px;
+  letter-spacing: 27px;
+}
+
+.social_icons a:visited {
+    color: #86878B;
+    
+}
+
+
+
+@media (max-width: 1199px) {
+  /* CSS для ширины от 992px до 1199px */
+.social__contant {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social {
+  height: 200px;
+}
+
+
+
+}
+
+@media (max-width: 991px) {
+  /* CSS для ширины от 768px до 991px */
+}
+
+@media (max-width: 767px) {
+  /* CSS для ширины от 576px до 767px */
+  .social_icons {
+    font-size: 25px;
+  }
+
+  .social {
+  height: 175px;
+}
+}
+
+@media (max-width: 575px) {
+  /* CSS для ширины до 575px (включительно) */
+.social {
+  display: none;
+}
+
+}
+
+@media (max-width: 319px) {
+  /* CSS для ширины до 320px (включительно) */
+}
+

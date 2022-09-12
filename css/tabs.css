@@ -1,0 +1,178 @@
+.tabs {
+  height: 350px;
+  padding: 125px 0;
+  
+}
+.tabs__contant {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+}
+.tabs__items {
+  /* display: flex;
+   flex-direction: column; */
+}
+
+.tabs__item {
+  width: 112px;
+  height: 110px;
+  background: #333333;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 10px;
+  
+}
+
+.tabs__item:first-child {
+  margin-top: 0;
+}
+
+.tabs__item_active {
+  width: 112px;
+  height: 110px;
+  background: #ec7979;
+  border-radius: 4px;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.tabs__information {
+}
+.tabs__title {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.tabs__text {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #86878b;
+  text-transform: uppercase;
+  max-width: 572px;
+  margin-top: 58px;
+}
+.form__btn {
+}
+.tabs__btn  {
+  display: block;
+  margin-top: 95px;
+  width: 135px;
+  height: 42px;
+}
+
+
+
+
+
+
+@media (max-width: 1199px) {
+  /* CSS для ширины от 992px до 1199px */
+  .tabs__contant {
+    margin: 0 27.5px;
+  }
+
+  .tabs__information {
+    margin: 0 27.5px;
+  }
+  .tabs {
+    padding-top: 40px;
+
+  }
+
+  .tabs__text {
+    max-width: 450px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* CSS для ширины от 768px до 991px */
+  .tabs__img  {
+    margin: 0 auto;
+    margin-top: 35px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* CSS для ширины от 576px до 767px */
+  .tabs__items {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    margin-top: -20px;
+  }
+
+  .tabs__item{
+    margin: 0 10px 0 10px;
+  }
+
+  .tabs__information {
+ margin: 0 auto;
+ margin-top: 25px;
+  }
+
+  .tabs__btn{
+display: block;
+margin: 0 auto;
+margin-top: -20px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* CSS для ширины до 575px (включительно) 
+  
+  */
+
+  .tabs__item {
+    width: 80px;
+    height: 75px;
+  }
+
+   .tabs__information {
+    margin: 0 15px;
+
+  }
+
+  .tabs__title {
+    margin-top: 25px;
+  }
+
+  .tabs__contant {
+    margin: 0;
+  }
+
+  .tabs__img {
+    margin-bottom: 20px;
+  }
+
+  .tabs__btn {
+    margin-top: -35px;
+  }
+
+  
+
+
+    
+  
+
+ 
+}
+
+@media (max-width: 319px) {
+  /* CSS для ширины до 320px (включительно) */
+}

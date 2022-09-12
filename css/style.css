@@ -1,0 +1,59 @@
+/*
+  ❏ ❐ ❏ ❐ ❏ ❐ ❏ ❐ ❑ ❒ ❏ ❐ ❏ ❐ ❑ ❒ ❏ ❐ ❑ ❒
+  ❐ ********************************************** ❑
+  ❑ *  AUTHOR:                 Dr. Mayson        * ❒
+  ❐ *  GENERATOR:         Visual Studio Code     * ❑
+  ❑ *  WEBSITE:           http://www.***.com/    * ❒
+  ❐ *  E-MAIL:            motrik_xxl@mail.ru     * ❑
+  ❑ *  TEMPLATE NAME:             AXIT           * ❒
+  ❐ *  VERSION:                    1.0           * ❑
+  ❑ *  LAST MODIFIED:      September-12-2022     * ❒
+  ❐ ********************************************** ❑
+  ❑ ❐ ❑ ❒ ❏ ❐ ❏ ❐ ❑ ❒ ❏ ❐ ❑ ❒ ❑ ❒ ❑ ❐ ❑ ❒ 
+*/
+
+@import url(menu.css);
+@import url(header.css);
+@import url(social.css);
+@import url(tabs.css);
+@import url(awesome.css);
+@import url(design.css);
+@import url(pricing.css);
+@import url(feedback.css);
+@import url(contact.css);
+@import url(footer.css);
+
+a {
+  text-decoration: none;
+}
+
+body {
+  position: relative;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  -khtml-user-select: none;
+}
+
+@media (max-width: 1199px) {
+  /* CSS для ширины от 992px до 1199px */
+}
+
+@media (max-width: 991px) {
+  /* CSS для ширины от 768px до 991px */
+}
+
+@media (max-width: 767px) {
+  /* CSS для ширины от 576px до 767px */
+}
+
+@media (max-width: 575px) {
+  /* CSS для ширины до 575px (включительно) */
+}
+
+@media (max-width: 319px) {
+  /* CSS для ширины до 320px (включительно) */
+}
