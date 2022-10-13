@@ -1,0 +1,183 @@
+.header {
+  background: url("../img/bg/bg-1.png") center center/cover no-repeat scroll;
+  max-height: 600px;
+}
+
+.header__contant {
+  background: rgba(0, 0, 0, 0.45);
+  height: 500px;
+  padding: 98px 0 101px 0;
+}
+
+.header__view {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo__header {
+  font-size: 60px;
+}
+
+.header__slogan {
+  max-width: 544px;
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  color: #ffffff;
+  margin-top: 42px;
+}
+
+.header__slogan::after {
+  display: block;
+  content: "";
+  width: 64px;
+  border: 1px solid #ffffff;
+  margin-top: 32px;
+}
+.header__descr {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #86878b;
+  margin-top: 39px;
+  max-width: 282px;
+}
+.header__btn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 62px;
+  border: none;
+  width: 370px;
+  height: 54px;
+  background: #ec7979;
+  border-radius: 0px 0px 8px 8px;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 15px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.header__form {
+  background: #ffffff;
+  border-radius: 8px;
+  width: 370px;
+  height: 370px;
+  text-align: center;
+}
+
+.header__form input {
+  display: block;
+  width: 252px;
+  margin: 0 auto;
+  /* margin-top: 19px; */
+  border: none;
+  border-bottom: 1px solid #bdbdbd;
+}
+
+.header__form p {
+  display: block;
+  text-align: left;
+  margin-left: 59px;
+  margin-bottom: -1px;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 14px;
+  align-items: center;
+  color: #bdbdbd;
+  margin-top: 23px;
+  margin-bottom: 5px;
+}
+
+.header__form label {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 20px;
+  color: #333333;
+  display: block;
+  margin: 10px 0 50px 0;
+}
+
+.header__form label span {
+  color: #ec7979;
+}
+
+@media (max-width: 1199px) {
+  /* CSS для ширины от 992px до 1199px */
+  .header__slogan,
+  .header__descr {
+    margin: 0 20px 0 30px;
+  }
+
+  .logo__header {
+    margin-left: 30px;
+  }
+
+  .header__descr {
+    margin-top: 25px;
+  }
+
+  .header__form {
+    margin-right: 20px;
+  }
+
+  .header__text_btn {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 991px) {
+  /* CSS для ширины от 768px до 991px */
+
+  .header__contant {
+    padding: 13px 0 60px 0;
+  }
+}
+
+@media (max-width: 767px) {
+  /* CSS для ширины от 576px до 767px */
+  .header__view {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header__form {
+    display: none;
+  }
+
+  .header {
+    max-height: 500px;
+  }
+
+  .header__contant {
+    height: 400px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* CSS для ширины до 575px (включительно) */
+  .header__text {
+    margin-top: -29px;
+  }
+  .header__text_btn {
+    margin-top: -35px;
+  }
+
+  .header__slogan {
+    margin-top: -7px;
+  }
+}
+
+@media (max-width: 319px) {
+  /* CSS для ширины до 320px (включительно) */
+  .header {
+    max-height: 600px;
+  }
+
+  .header__slogan {
+    font-size: 29px;
+  }
+}

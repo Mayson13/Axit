@@ -1,0 +1,91 @@
+.design {
+  background: url("../img/bg/bg-2.png") center center/cover no-repeat scroll;
+}
+
+.container {
+  max-width: 1170px;
+}
+
+.design__content {
+  background-color: rgba(0, 0, 0, 0.55);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 325px;
+  padding: 57px 0 38px 0;
+}
+.title {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 36px;
+}
+
+.title::after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  margin-top: 34px;
+  width: 64px;
+  height: 2px;
+}
+
+.title_white {
+  color: #ffffff;
+}
+
+.title_white::after {
+  background: #ffffff;
+}
+
+.design__descr {
+  font-family: "Raleway";
+  font-weight: 300;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: 34px;
+}
+.design__btn {
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 15px;
+  text-align: center;
+  width: 135px;
+  height: 42px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0);
+  cursor: pointer;
+  margin-top: 57px;
+}
+
+.design__btn a:visited {
+  color: #ffffff;
+}
+
+@media (max-width: 1199px) {
+  /* CSS для ширины от 992px до 1199px */
+}
+
+@media (max-width: 991px) {
+  /* CSS для ширины от 768px до 991px */
+}
+
+@media (max-width: 767px) {
+  /* CSS для ширины от 576px до 767px */
+  .design__descr {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  .title_white {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  /* CSS для ширины до 575px (включительно) */
+}
+
+@media (max-width: 319px) {
+  /* CSS для ширины до 320px (включительно) */
+}

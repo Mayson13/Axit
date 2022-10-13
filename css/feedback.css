@@ -1,0 +1,108 @@
+.feedback {
+  box-sizing: border-box;
+  min-height: 650px;
+  padding: 80px 0 120px 0;
+}
+
+.feedback__items {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 67px;
+}
+
+.feedback__item {
+  position: relative;
+  max-width: 298px;
+  margin: 0 40px;
+}
+
+.item__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #86878b;
+  background: #e2e2e2;
+  border-radius: 7px;
+  padding: 9px 22px 6px 22px;
+  font-family: "Open Sans";
+}
+
+.transform {
+  position: absolute;
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: #e2e2e2;
+  transform: rotate(-45deg);
+  margin-left: 40px;
+  margin-top: -10px;
+}
+
+.item__persona {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 22px;
+}
+
+.item__name {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 20px;
+  color: #333333;
+}
+
+.item__jobtitle {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 14px;
+  color: #86878b;
+  text-align: right;
+  margin-top: 12px;
+}
+
+@media (max-width: 1199px) {
+  /* CSS для ширины от 992px до 1199px */
+  .feedback {
+    min-height: 750px;
+  }
+
+  .feedback__items {
+    margin-top: 20px;
+  }
+
+  .feedback__item {
+    margin: 25px 40px 0;
+  }
+}
+
+@media (max-width: 991px) {
+  /* CSS для ширины от 768px до 991px */
+  .feedback {
+    min-height: 850px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* CSS для ширины от 576px до 767px */
+  .feedback {
+    min-height: 950px;
+    padding-top: 10px;
+  }
+
+  .title_black {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* CSS для ширины до 575px (включительно) */
+
+  .feedback {
+    min-height: 1150px;
+  }
+}
+
+@media (max-width: 319px) {
+  /* CSS для ширины до 320px (включительно) */
+}

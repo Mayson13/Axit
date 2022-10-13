@@ -1,0 +1,135 @@
+.contact {
+  min-height: 700px;
+  padding: 80px 0 44px 0;
+}
+
+.design__descr_black {
+  color: #86878b;
+}
+
+.form__items {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 91px;
+  flex-wrap: wrap;
+}
+.form__item input,
+.form__item textarea {
+  width: 478px;
+
+  border: none;
+  border-bottom: 1px solid #bdbdbd;
+}
+
+.form__item textarea {
+  height: 230px;
+  resize: none;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 14px;
+  color: #bdbdbd;
+  margin-top: 23px;
+}
+
+.form__item p {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 14px;
+  color: #bdbdbd;
+  margin-top: 32px;
+}
+
+.form__btn button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 69px;
+  width: 166px;
+  height: 42px;
+  background: #ec7979;
+  border: 1px solid #ffffff;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 15px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+@media (max-width: 1199px) {
+  /* CSS для ширины от 992px до 1199px */
+  .form__item {
+    margin: 0 40px;
+  }
+
+  .form__item input,
+  .form__item textarea {
+    width: 378px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* CSS для ширины от 768px до 991px */
+  .form__item input,
+  .form__item textarea {
+    width: 278px;
+  }
+
+  .contact {
+    min-height: 700px;
+    padding: 0px 0 24px 0;
+  }
+}
+
+@media (max-width: 767px) {
+  /* CSS для ширины от 576px до 767px */
+
+  .form__items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form__item textarea {
+    margin-top: 50px;
+  }
+
+  .form__item input,
+  .form__item textarea {
+    width: 400px;
+  }
+
+  .form__item input {
+    margin-top: 32px;
+  }
+
+  .contact {
+    min-height: 1040px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* CSS для ширины до 575px (включительно) */
+  .form__item input,
+  .form__item textarea {
+    width: 290px;
+  }
+
+  .form__item {
+    margin: 7px 10px;
+  }
+
+  .form__item input {
+    margin-top: 0px;
+  }
+
+  /* .form__btn button {
+    margin-top: 30px;
+  } */
+
+  .contact {
+    min-height: 970px;
+  }
+}
+
+@media (max-width: 319px) {
+  /* CSS для ширины до 320px (включительно) */
+}

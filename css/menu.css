@@ -1,0 +1,115 @@
+.menu {
+  background: #000000;
+  /* position: fixed;
+  width: 100%; */
+  height: 70px;
+}
+
+.container {
+  max-width: 1170px;
+
+  margin: 0 auto;
+}
+
+.menu__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 30px;
+  color: #ffffff;
+
+  margin: 10px 0 19px 0;
+}
+
+.logo span {
+  color: #ec7979;
+}
+
+.logo a:visited {
+  color: #ffffff;
+}
+
+.menu__items {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+.menu__item {
+  list-style-type: none;
+  margin-right: 48px;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.menu__item a:visited {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.menu__item:last-child {
+  margin-right: 0;
+}
+
+@media (max-width: 1199px) {
+  /* CSS для ширины от 992px до 1199px */
+
+  .logo__menu {
+    margin-left: 30px;
+  }
+
+  .menu__items {
+    margin-right: 35px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* CSS для ширины от 768px до 991px */
+}
+
+@media (max-width: 767px) {
+  /* CSS для ширины от 576px до 767px */
+  .menu__item {
+    margin: 0px 13px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* CSS для ширины до 575px (включительно)*/
+
+  .menu {
+    height: 250px;
+  }
+  .menu__list {
+    margin-top: -20px;
+  }
+  .menu__items {
+    flex-direction: column;
+    /* margin-right: 35px;
+    margin-left: 35px; */
+  }
+  .logo__menu {
+    margin-left: 0px;
+  }
+
+  .menu__item {
+    margin-top: 10px;
+  }
+  .menu__item:last-child {
+    margin-right: 14px;
+  }
+
+  .menu__content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media (max-width: 319px) {
+  /* CSS для ширины до 320px (включительно) */
+}

@@ -1,0 +1,58 @@
+.footer {
+  background: #000000;
+}
+.container {
+  max-width: 1170px;
+  height: 101px;
+}
+
+.footer__content {
+  padding: 30px 0 15px 0;
+}
+.footer_icons {
+  text-align: center;
+  font-size: 21px;
+  letter-spacing: 13px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.footer_icons a:visited {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.footer__descr {
+  text-align: center;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 18px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+@media (max-width: 1199px) {
+  /* CSS для ширины от 992px до 1199px */
+}
+
+@media (max-width: 991px) {
+  /* CSS для ширины от 768px до 991px */
+}
+
+@media (max-width: 767px) {
+  /* CSS для ширины от 576px до 767px */
+}
+
+@media (max-width: 575px) {
+  /* CSS для ширины до 575px (включительно) */
+  .footer_icons {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 21px;
+    margin: 0 15px;
+  }
+}
+
+@media (max-width: 319px) {
+  /* CSS для ширины до 320px (включительно) */
+}

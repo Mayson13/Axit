@@ -1,0 +1,130 @@
+.awesome {
+  min-height: 500px;
+  padding: 60px 0 96px 0;
+}
+.container {
+  max-width: 1170px;
+}
+
+.title {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.title_black::after {
+  background: #ec7979;
+}
+
+.design__descr_black {
+  color: #86878b;
+  text-align: center;
+}
+
+.awesome__items {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 -20px;
+  margin-top: 68px;
+}
+
+.awesome__item {
+  max-width: 350px;
+  margin: 0 20px;
+}
+
+.awesome__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  border: 1px solid #e72424;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.awesome__icon img {
+  display: block;
+  margin: 0 auto;
+}
+.item__title {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  color: #333333;
+  margin-top: 30px;
+}
+
+.item__info {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  color: #000000;
+  margin-top: 16px;
+}
+
+
+
+@media (max-width: 1199px) {
+  /* CSS для ширины от 992px до 1199px */
+  .awesome__items {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* CSS для ширины от 768px до 991px */
+  .awesome {
+    margin-top: 130px;
+  }
+  .awesome__items {
+  margin-top: 30px;
+  }
+
+}
+
+@media (max-width: 767px) {
+  /* CSS для ширины от 576px до 767px */
+  .awesome {
+    margin-top: 200px;
+
+    height: 900px;
+  }
+
+  .awesome__items {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: -10px;
+  }
+
+  .awesome__item {
+    margin-top: 45px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* CSS для ширины до 575px (включительно) */
+
+  .title_black, .design__descr_black {
+    margin-right: 15px;
+    margin-left: 15px;
+    /* margin-top: 120px; */
+    
+  }
+.awesome {
+  height: 1050px;
+  padding-bottom: 20px;
+}
+  
+
+ 
+}
+
+@media (max-width: 319px) {
+  /* CSS для ширины до 320px (включительно) */
+}

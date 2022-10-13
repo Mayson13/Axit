@@ -1,0 +1,129 @@
+.pricing {
+  box-sizing: border-box;
+  min-height: 850px;
+  background: #f5f5f5;
+  padding: 50px 0 59px 0;
+}
+
+.pricing__items {
+  display: flex;
+  justify-content: center;
+  /* flex-wrap: wrap; */
+  margin-top: 61px;
+}
+.pricing__item {
+  margin: 0 25px;
+}
+
+.table tr {
+  height: 40px;
+}
+
+.table tr td {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 340px;
+  height: 40px;
+  background: #ffffff;
+  font-family: "Open Sans";
+  font-weight: 400;
+  text-align: center;
+  color: #86878b;
+  margin-top: 4px;
+}
+
+.table .option {
+  background: #333333;
+  height: 50px;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 20px;
+  color: #ffffff;
+}
+.table .cost {
+  height: 100px;
+  background: #333333;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 35px;
+  text-align: center;
+  color: #ffffff;
+}
+.table .free {
+  height: 50px;
+  background: #333333;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+@media (max-width: 1199px) {
+  /* CSS для ширины от 992px до 1199px */
+
+  .pricing {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .table tr td {
+    max-width: 240px;
+  }
+
+  .pricing__item {
+    margin: 0 15px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* CSS для ширины от 768px до 991px */
+  .table tr td {
+    max-width: 180px;
+  }
+
+  .pricing__item {
+    margin: 0 5px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* CSS для ширины от 576px до 767px */
+}
+
+@media (max-width: 575px) {
+  /* CSS для ширины до 575px (включительно) 
+  */
+  .pricing {
+    padding-top: 0px;
+    height: 1800px;
+  }
+
+  .pricing__items {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pricing__item {
+    margin-top: 25px;
+  }
+
+  .table tr td {
+    max-width: 300px;
+  }
+
+  .design__descr_black {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 319px) {
+  /* CSS для ширины до 320px (включительно) */
+
+  .table tr td {
+    max-width: 300px;
+  }
+}
